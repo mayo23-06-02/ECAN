@@ -26,7 +26,7 @@ export default function Button({
   return (
     <button
       className={clsx(
-        "px-5 h-10 cursor-pointer hover:scale-105 ease-out delay-100 rounded-sm font-outfit font-semibold shadow transition-colors focus:outline-none w-[150px]  text-center",
+        " h-10 cursor-pointer hover:scale-105 ease-out delay-100 rounded-sm font-outfit font-semibold shadow transition-colors focus:outline-none w-[160px] flex items-center justify-center text-sm text-center",
         variantClasses[variant],
         className
       )}

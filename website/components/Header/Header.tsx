@@ -42,7 +42,7 @@ export default function Header() {
         <header className="w-full lg:border-b-8 border-b-4 border-[#FEC5F6] bg-primary dark:bg-tertiary lg:px-12 px-4 z-50 sticky top-0 bg-white ">
             <nav className="max-w-[1600px] mx-auto flex items-center justify-between px-4 py-3 md:py-4">
                 <Link href="/" className="flex items-center gap-2">
-                    <Image src={Logo} alt="Logo" width={60} height={40} />
+                    <Image src={Logo} alt="Logo" width={30} height={40} />
                 </Link>
                 <div className="flex-1 flex justify-center">
                     <ul className="hidden md:flex gap-8 items-center text-[#75245F]">
