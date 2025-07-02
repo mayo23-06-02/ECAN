@@ -8,7 +8,7 @@ import { BsArrowRight } from 'react-icons/bs'
 
 function AdvocacySectionHome() {
     return (
-        <div className='bg-[#F9ECF7] flex flex-col lg:flex-row lg:space-x-8 max-h-[600px]'>
+        <div className='bg-[#F9ECF7] flex flex-col lg:flex-row lg:space-x-8 lg:max-h-[600px]'>
             <div className='min-w-[300px]'>
                 <Image src={Support} alt="Support" width={1000} height={400} className='hidden lg:inline h-[600px] object-cover' />
                 <Image src={Support} alt="Support" width={800} height={100} className='lg:hidden' />

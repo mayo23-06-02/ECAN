@@ -2,7 +2,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Button from '@/components/Re-usable UI/Button'
-import Carousel, { ArrowProps, DotProps } from 'react-multi-carousel'
+import Carousel, { DotProps } from 'react-multi-carousel'
 import 'react-multi-carousel/lib/styles.css'
 import Truck from '@/assets/truck.jpg' // Adjust the import path as needed
 
@@ -64,7 +64,7 @@ const CustomDot = ({ onClick, active }: DotProps) => (
   />
 )
 
-// Custom Arrow group (only show on lg+)
+// Use 'any' for customButtonGroup props to match react-multi-carousel's dynamic injection
 const CustomButtonGroup = ({ next, previous }: any) => {
   return (
     <div className="hidden lg:flex absolute top-1/2 left-0 right-0 justify-between px-8 z-30 pointer-events-none">
