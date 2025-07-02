@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+:root {
+  --font-outfit: 'Outfit', sans-serif;
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  font-family: var(--font-outfit), Arial, Helvetica, sans-serif;
+}
+
+@theme inline {
+  --font-mono: var(--font-geist-mono);
+}
+
