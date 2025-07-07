@@ -1,17 +1,18 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { FaArrowLeft } from 'react-icons/fa';
 
 export default function BraveTheBreastWalk() {
   return (
     <main className="max-w-[900px] mx-auto px-4 py-12">
-      <article className="bg-white  p-8">
+      <article className="bg-white rounded-xl p-8">
         <Link href="/events-calendar" className="inline-flex items-center text-[#FC55E5] font-bold mb-6 hover:underline">
           <FaArrowLeft className="mr-2" /> Back to Events
         </Link>
         <h1 className="font-verveine text-3xl lg:text-5xl text-[#B33791] mb-4">Brave the Breast Walk</h1>
-        <img src="/events/breast-walk.jpg" alt="Brave the Breast Walk" className="w-full h-64 object-cover rounded-lg mb-6" />
-        <section className="prose space-y-6 max-w-none text-[#75245F]">
+        <Image src="/events/breast-walk.jpg" alt="Brave the Breast Walk" width={900} height={256} className="w-full h-64 object-cover rounded-lg mb-6" />
+        <section className="prose max-w-none text-[#75245F]">
           <p>
             Walk with survivors, families, and supporters in Mbabane to promote early detection and honor those affected by breast cancer. This annual event brings together the community for a day of hope, solidarity, and action.
           </p>

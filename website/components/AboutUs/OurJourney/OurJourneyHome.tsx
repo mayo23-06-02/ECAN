@@ -1,8 +1,5 @@
 'use client'
-import Button from '@/components/Re-usable UI/Button'
-import Link from 'next/link'
 import React from 'react'
-import { BsArrowRight } from 'react-icons/bs'
 
 function OurJourneyHome() {
     return (

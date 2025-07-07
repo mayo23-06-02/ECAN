@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { FaRegNewspaper, FaFilePdf, FaCalendarAlt, FaUserCircle, FaArrowRight } from 'react-icons/fa';
 
 const blogPosts = [
@@ -53,9 +54,11 @@ export default function BlogPage() {
 							aria-label={`Read full story: ${post.title}`}
 						>
 							<div className="h-48 w-full bg-gray-200 relative">
-								<img
+								<Image
 									src={post.image}
 									alt={post.title}
+									width={800}
+									height={192}
 									className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300"
 									loading="lazy"
 								/>

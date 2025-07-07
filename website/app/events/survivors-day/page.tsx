@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { FaArrowLeft } from 'react-icons/fa';
 
 export default function SurvivorsDay() {
@@ -9,11 +10,11 @@ export default function SurvivorsDay() {
         <Link href="/events-calendar" className="inline-flex items-center text-[#FC55E5] font-bold mb-6 hover:underline">
           <FaArrowLeft className="mr-2" /> Back to Events
         </Link>
-        <h1 className="font-verveine text-3xl lg:text-5xl text-[#B33791] mb-4">Survivor's Day</h1>
-        <img src="/events/survivors-day.jpg" alt="Survivor's Day" className="w-full h-64 object-cover rounded-lg mb-6" />
+        <h1 className="font-verveine text-3xl lg:text-5xl text-[#B33791] mb-4">Survivor&apos;s Day</h1>
+        <Image src="/events/survivors-day.jpg" alt="Survivor&apos;s Day" width={900} height={256} className="w-full h-64 object-cover rounded-lg mb-6" />
         <section className="prose space-y-6 max-w-none text-[#75245F]">
           <p>
-            Celebrate resilience and hope with cancer survivors and their families at our annual Survivor's Day event. This special day is dedicated to honoring the strength and courage of those who have faced cancer.
+            Celebrate resilience and hope with cancer survivors and their families at our annual Survivor&apos;s Day event. This special day is dedicated to honoring the strength and courage of those who have faced cancer.
           </p>
           <h2>What to Expect</h2>
           <ul>
