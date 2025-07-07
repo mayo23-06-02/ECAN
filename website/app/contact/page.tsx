@@ -1,6 +1,5 @@
 import ContactPageHome from "@/components/ContactUs/ContactPageHome";
 import DonateHome from "@/components/LandingPage/DonateSection/DonateHome";
-import MotionTextStrip from "@/components/LandingPage/HeroSection/MotionTextStrip";
 
 export default function Contact() {
   return (
