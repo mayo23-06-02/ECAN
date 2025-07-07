@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaRegNewspaper, FaCalendarAlt, FaUserCircle, FaArrowLeft } from 'react-icons/fa';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function AwarenessMonthStory() {
   return (
@@ -17,7 +18,7 @@ export default function AwarenessMonthStory() {
           <span className="flex items-center"><FaCalendarAlt className="mr-1 text-[#FC55E5]" />01 May 2025</span>
           <span className="flex items-center"><FaUserCircle className="mr-1 text-[#FC55E5]" />S. Mthethwa</span>
         </div>
-        <img src="/truck.jpg" alt="Cancer Awareness Month" className="w-full h-64 object-cover rounded-lg mb-6" />
+        <Image src="/truck.jpg" alt="Cancer Awareness Month" width={900} height={256} className="w-full h-64 object-cover rounded-lg mb-6" />
         <section className="prose space-y-4 max-w-none text-[#75245F]">
           <p>
             Cancer Awareness Month 2025 was a resounding success, uniting communities across Eswatini in the fight against cancer. Through a series of outreach events, survivor stories, and educational campaigns, ECAN helped shine a light on prevention, early detection, and hope.
@@ -34,12 +35,12 @@ export default function AwarenessMonthStory() {
             One of the most moving moments was hearing from survivors who bravely shared their experiences. Their stories of resilience and recovery gave hope to many and reminded us all of the importance of early detection.
           </p>
           <blockquote>
-            "I never thought I would be a survivor. Thanks to ECAN’s awareness campaign, I got screened early and received the care I needed." <br />
+            &quot;I never thought I would be a survivor. Thanks to ECAN&quot;s awareness campaign, I got screened early and received the care I needed.&quot; <br />
             <span className="font-bold">— Survivor, Manzini</span>
           </blockquote>
           <h2>Resources Shared</h2>
           <p>
-            Throughout the month, ECAN distributed educational materials, hosted Q&A sessions, and provided links to helpful resources. You can find more information and download materials from our <Link href="/blog" className="text-[#FC55E5] underline font-bold">Blog & Reports</Link> page.
+            Throughout the month, ECAN distributed educational materials, hosted Q&amp;A sessions, and provided links to helpful resources. You can find more information and download materials from our <Link href="/blog" className="text-[#FC55E5] underline font-bold">Blog &amp; Reports</Link> page.
           </p>
           <p>
             Thank you to everyone who participated, volunteered, and supported Cancer Awareness Month. Together, we are making a difference!
