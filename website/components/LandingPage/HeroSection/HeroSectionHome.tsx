@@ -4,7 +4,6 @@ import Image from 'next/image'
 import Button from '@/components/Re-usable UI/Button'
 import Carousel, { DotProps } from 'react-multi-carousel'
 import 'react-multi-carousel/lib/styles.css'
-import Truck from '@/assets/truck.jpg' // Adjust the import path as needed
 
 // Define types for slide data
 import type { StaticImageData } from 'next/image'
@@ -20,7 +19,7 @@ interface Slide {
 
 const slides: Slide[] = [
   {
-    image: Truck,
+    image: '/truck.jpg',
     title: 'Early Detection is Key—Because Every ',
     highlight: 'Moment Matters',
     description:
@@ -28,7 +27,7 @@ const slides: Slide[] = [
     button: 'Get Started',
   },
   {
-    image: Truck,
+    image: '/truck.jpg',
     title: 'Early Detection is Key—Because Every ',
     highlight: 'Moment Matters',
     description:
@@ -126,7 +125,7 @@ const HeroSectionHome: React.FC = () => {
                 className="object-cover object-right md:object-center"
                 sizes="100vw"
                 priority={idx === 0} // Only prioritize first slide
-                quality={85} // Optimize image quality
+                quality={100} // Optimize image quality
               />
               {/* Desktop/Large overlay - shown only on lg+ screens, overlays image */}
               <span className="hidden lg:inline absolute top-0 pl-32 pr-16 left-0 w-5/12 h-full bg-[#fc55e6de] bg-opacity-90">

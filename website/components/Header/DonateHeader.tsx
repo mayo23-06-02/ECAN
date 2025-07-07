@@ -4,7 +4,7 @@ import { BsFacebook, BsPhone, BsWhatsapp } from "react-icons/bs";
 
 function DonateHeader() {
   return (
-    <div className="flex flex-col md:flex-row font-outfit items-center justify-center md:space-x-16 bg-primary bg-[#DB8DD0] text-white px-4 py-2 shadow-md w-full">
+    <div className="flex flex-col md:flex-row font-outfit items-center justify-center md:space-x-16 bg-primary bg-[#DB8DD0] text-white px-4 py-2  w-full">
       <div className="relative flex items-center gap-2 mb-2 md:mb-0 animate-fade-in-left sm:text-xs w-full md:w-auto">
         <div className="block md:hidden w-full overflow-x-hidden">
           <div className="whitespace-nowrap animate-marquee text-center w-max">

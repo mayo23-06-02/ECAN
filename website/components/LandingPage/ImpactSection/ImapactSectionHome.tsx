@@ -48,9 +48,9 @@ function ImpactCardCarousel() {
     };
 
     return (
-        <div className="w-full max-w-[1400px] mx-auto px-2 sm:px-4 py-16 lg:py-24">
-            <h1 style={{ fontFamily: 'var(--font-verveine)' }} className="font-verveine text-5xl lg:text-8xl text-center impact-reveal lg:mb-16 lg:mt-8">Our Impact</h1>
-            <p className='text-4xl lg:text-5xl text-left about-reveal'>
+        <div className="w-full max-w-[1400px] mx-auto px-2 sm:px-4 py-8 lg:py-16">
+            <h1 style={{ fontFamily: 'var(--font-verveine)' }} className="font-verveine text-3xl lg:text-5xl  impact-reveal lg:mb-2 lg:mt-8 text-[#B33791]">Our Impact</h1>
+            <p className='text-5xl lg:text-7xl mb-8 text-left about-reveal'>
                     We launch a constellation of change<span style={{ color: '#FC55E5', fontWeight: '500' }}> to a cancer-free tomorrow</span> .
                 </p>
                 <style jsx>{`

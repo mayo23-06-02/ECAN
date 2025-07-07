@@ -5,6 +5,8 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/Header/Header";
 import DonateHeader from "@/components/Header/DonateHeader";
+import Footer from "@/components/Footer/Footer";
+import MotionTextStrip from "@/components/LandingPage/HeroSection/MotionTextStrip";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -45,6 +47,8 @@ export default function RootLayout({
         <DonateHeader />
         <Header />
         {children}
+        <MotionTextStrip />
+        <Footer />
       </body>
     </html>
   );

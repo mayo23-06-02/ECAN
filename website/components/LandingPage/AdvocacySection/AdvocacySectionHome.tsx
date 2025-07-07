@@ -2,7 +2,6 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import Support from '../../../assets/support.jpg'
 import Button from '@/components/Re-usable UI/Button'
 import { BsArrowRight } from 'react-icons/bs'
 
@@ -10,8 +9,8 @@ function AdvocacySectionHome() {
     return (
         <div className='bg-[#F9ECF7] flex flex-col lg:flex-row lg:space-x-8 lg:max-h-[600px]'>
             <div className='min-w-[300px]'>
-                <Image src={Support} alt="Support" width={1000} height={400} className='hidden lg:inline h-[600px] object-cover' />
-                <Image src={Support} alt="Support" width={800} height={100} className='lg:hidden' />
+                <Image src="/support.jpg" alt="Support" width={1000} height={400} className='hidden lg:inline h-[600px] object-cover' />
+                <Image src="/support.jpg" alt="Support" width={800} height={100} className='lg:hidden' />
             </div>
             <div className='lg:pr-32 px-6 lg:py-16 py-8'>
                 <div>
@@ -33,9 +32,9 @@ function AdvocacySectionHome() {
                   }
                 `}</style>
                 </div>
-                <div className='space-y-6 flex flex-col  w-full mt-8'>
+                <div className='space-y-6 flex flex-col lg:max-w-10/12  w-full mt-8'>
                     <p>
-                        At the Eswatini Cancer Network (ECAN), we are dedicated to improving cancer survival rates in the Kingdom of Eswatini by raising awareness, providing screening services, reducing stigma, and advocating for better care.
+                        At Eswatini Cancer Network (ECAN), we are dedicated to improving cancer survival rates in the Kingdom of Eswatini by raising awareness, providing screening services, reducing stigma, and advocating for better care.
                     </p>
                     <p>
                         Over the past 24 years, our efforts have made a tangible difference in the lives of thousands of individuals and communities across Hhohho, Lubombo, Manzini, and Shiselweni. Below, we share the impact of our work and the stories of those we’ve touched.

@@ -2,8 +2,6 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import Ribbon from '../../../assets/ribbonSVG.svg'
-import RibbonSM from '../../../assets/ribbonSM.svg'
 import Button from '@/components/Re-usable UI/Button'
 import { BsArrowRight } from 'react-icons/bs'
 
@@ -30,9 +28,9 @@ function AboutSectionHome() {
                 `}</style>
             </div>
             <div>
-                <Image src={RibbonSM} alt="Ribbon" width={500} height={500} className='lg:hidden animate-fade-in' />
+                <Image src="/ribbonSM.svg" alt="Ribbon" width={500} height={500} className='lg:hidden animate-fade-in' />
                 <span className='absolute top-[15%] right-0  animate-fade-in'>
-                    <Image src={Ribbon} alt="Ribbon" width={600} height={700} className='hidden lg:inline top-0 right-0 lg:top-[-50px] lg:right-[-50px]  animate-fade-in' />
+                    <Image src="/ribbonSVG.svg" alt="Ribbon" width={600} height={700} className='hidden lg:inline top-0 right-0 lg:top-[-50px] lg:right-[-50px]  animate-fade-in' />
                 </span>
             </div>
             <div className='space-y-6 flex flex-col  w-full '>
