@@ -125,14 +125,18 @@ export default function Header() {
                     </ul>
                 </div>
                 <div className="hidden md:flex">
-                    <Button variant="primary" onClick={() => alert("Clicked!")}>
-                        <p className="whitespace-nowrap flex w-full justify-center items-center gap-4 font-outfit font-bold">
-                            DONATE
-                            <span className="inline-block transition-transform duration-300 group-hover:translate-x-1 motion-reduce:transform-none animate-arrow-bounce">
-                                <BsArrowRight className="bg-white text-[#FC55E5] rounded-full h-5 w-5 p-1" />
-                            </span>
-                        </p>
-                    </Button>
+                    <Link href="/donate" passHref legacyBehavior>
+                        <a>
+                            <Button variant="primary" >
+                                <p className="whitespace-nowrap flex w-full justify-center items-center gap-4 font-outfit font-bold">
+                                    DONATE
+                                    <span className="inline-block transition-transform duration-300 group-hover:translate-x-1 motion-reduce:transform-none animate-arrow-bounce">
+                                        <BsArrowRight className="bg-white text-[#FC55E5] rounded-full h-5 w-5 p-1" />
+                                    </span>
+                                </p>
+                            </Button>
+                        </a>
+                    </Link>
                 </div>
                 <div className="md:hidden">
                     <button
