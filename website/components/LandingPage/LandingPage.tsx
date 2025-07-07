@@ -7,7 +7,6 @@ import DonateHome from './DonateSection/DonateHome'
 import DetectionSectionHome from './DetectionSection/DetectionHome'
 import QuickMenuHome from './QuickMenuSection/QuickMenuHome'
 import PartnersHome from './Partners/PartnersHome'
-import MotionTextStrip from './HeroSection/MotionTextStrip'
 import UpcomingEventsSection from './UpcomingEventsSection/UpcomingEventsSection'
 
 function LandingPage() {

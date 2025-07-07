@@ -63,8 +63,12 @@ const CustomDot = ({ onClick, active }: DotProps) => (
   />
 )
 
-// Use 'any' for customButtonGroup props to match react-multi-carousel's dynamic injection
-const CustomButtonGroup = ({ next, previous }: any) => {
+// Use correct type for props expected by react-multi-carousel's customButtonGroup
+interface CustomButtonGroupProps {
+  next?: () => void
+  previous?: () => void
+}
+const CustomButtonGroup = ({ next, previous }: CustomButtonGroupProps) => {
   return (
     <div className="hidden lg:flex absolute top-1/2 left-0 right-0 justify-between px-8 z-30 pointer-events-none">
       <button

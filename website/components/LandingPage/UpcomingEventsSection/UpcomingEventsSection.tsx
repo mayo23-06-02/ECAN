@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { FaCalendarAlt, FaMapMarkerAlt, FaArrowRight } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaArrowRight } from 'react-icons/fa';
 
 const events = [
     {

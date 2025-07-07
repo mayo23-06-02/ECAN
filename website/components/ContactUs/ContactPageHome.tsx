@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from 'react';
-import { FaChevronDown, FaFacebookF, FaInstagram } from 'react-icons/fa';
+import { FaChevronDown } from 'react-icons/fa';
 
 const faqs = [
     {

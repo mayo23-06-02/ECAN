@@ -1,10 +1,6 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
-import Button from '@/components/Re-usable UI/Button'
-import { BsArrowRight } from 'react-icons/bs'
-import BoardOfDirectors from './BoardOfDirectors'
 
 function OurTeamHome() {
     return (
