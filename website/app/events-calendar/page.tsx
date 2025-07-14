@@ -12,12 +12,12 @@ const events = [
 		location: 'Nationwide',
 		cta: 'Read More',
 		link: '/events/october-breast-cancer-awareness',
-		image: '/breast-walk.png',
+		image: '/fight.jpg',
 		type: 'upcoming',
 	},
 	{
 		title: 'Brave the Breast Walk',
-		date: 'October 12, 2025',
+		date: 'November 01, 2025',
 		description:
 			'Walk with survivors, families, and supporters in Mbabane to promote early detection and honor those affected by breast cancer.',
 		location: 'Coronation Park, Mbabane',
@@ -26,28 +26,7 @@ const events = [
 		image: '/breast-walk.png',
 		type: 'upcoming',
 	},
-	{
-		title: "Survivor's Day",
-		date: 'November 15, 2025',
-		description:
-			'Celebrate resilience and hope with cancer survivors and their families at our annual Survivor\'s Day event.',
-		location: 'Manzini Community Center',
-		cta: 'Read More',
-		link: '/events/survivors-day',
-		image: '/breast-walk.png',
-		type: 'upcoming',
-	},
-	{
-		title: 'Cervical Cancer Awareness Month',
-		date: 'January 2026',
-		description:
-			'Learn about cervical cancer prevention and access free screenings during our nationwide campaign.',
-		location: 'Various Health Centers',
-		cta: 'Read More',
-		link: '/events/cervical-cancer-awareness',
-		image: '/breast-walk.png',
-		type: 'upcoming',
-	},
+	
 	// Example past event
 	{
 		title: '2024 Annual Cancer Symposium',
@@ -57,7 +36,7 @@ const events = [
 		location: 'Royal Swazi Convention Centre',
 		cta: 'Read More',
 		link: '/breast-walk.png',
-		image: '/breast-walk.png',
+		image: '/truck.jpg',
 		type: 'past',
 	},
 ];

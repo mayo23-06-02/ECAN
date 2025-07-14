@@ -11,8 +11,8 @@ export default function OctoberBreastCancerAwareness() {
           <FaArrowLeft className="mr-2" /> Back to Events
         </Link>
         <h1 className="font-verveine text-3xl lg:text-5xl text-[#B33791] mb-4">October Breast Cancer Awareness Month</h1>
-        <Image src="/events/breast-cancer-month.jpg" alt="Breast Cancer Awareness" width={900} height={256} className="w-full h-64 object-cover rounded-lg mb-6" />
-        <section className="prose max-w-none text-[#75245F]">
+        <Image src="/fight2.jpg" alt="Breast Cancer Awareness" width={900} height={256} className="w-full h-96 object-cover rounded-lg mb-6" />
+        <section className="prose space-y-4 max-w-none text-[#75245F]">
           <p>
             Join ECAN throughout October for International Breast Cancer Awareness Month! We are hosting a series of talks, free screenings, and community events across Eswatini to raise awareness and promote early detection.
           </p>

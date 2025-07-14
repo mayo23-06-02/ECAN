@@ -21,24 +21,7 @@ const events = [
         cta: 'Register Now',
         link: '/events/brave-the-breast-walk',
     },
-    {
-        title: 'Survivor\'s Day',
-        date: 'November 15, 2025',
-        description:
-            'Celebrate resilience and hope with cancer survivors and their families at our annual Survivor\'s Day event.',
-        location: 'Manzini Community Center',
-        cta: 'Join Us',
-        link: '/events/survivors-day',
-    },
-    {
-        title: 'Cervical Cancer Awareness Month',
-        date: 'January 2026',
-        description:
-            'Learn about cervical cancer prevention and access free screenings during our nationwide campaign.',
-        location: 'Various Health Centers',
-        cta: 'Learn More',
-        link: 'events/cervical-cancer-awareness',
-    },
+    
 ];
 
 const UpcomingEventsSection = () => (

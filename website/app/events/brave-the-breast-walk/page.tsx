@@ -11,8 +11,8 @@ export default function BraveTheBreastWalk() {
           <FaArrowLeft className="mr-2" /> Back to Events
         </Link>
         <h1 className="font-verveine text-3xl lg:text-5xl text-[#B33791] mb-4">Brave the Breast Walk</h1>
-        <Image src="/events/breast-walk.jpg" alt="Brave the Breast Walk" width={900} height={256} className="w-full h-64 object-cover rounded-lg mb-6" />
-        <section className="prose max-w-none text-[#75245F]">
+        <Image src="/fight.jpg" alt="Brave the Breast Walk" width={900} height={256} className="w-full h-96 object-cover rounded-lg mb-6" />
+        <section className="prose space-y-4 max-w-none text-[#75245F]">
           <p>
             Walk with survivors, families, and supporters in Mbabane to promote early detection and honor those affected by breast cancer. This annual event brings together the community for a day of hope, solidarity, and action.
           </p>
