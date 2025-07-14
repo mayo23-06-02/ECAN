@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { FaRegNewspaper, FaFilePdf, FaCalendarAlt, FaUserCircle, FaArrowRight } from 'react-icons/fa';
+import { FaRegNewspaper, FaCalendarAlt, FaUserCircle, FaArrowRight } from 'react-icons/fa';
 
 const blogPosts = [
    {
