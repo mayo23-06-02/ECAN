@@ -18,7 +18,7 @@ export default function PartnerSpotlightEWSCStory() {
           <span className="flex items-center"><FaCalendarAlt className="mr-1 text-[#FC55E5]" />14 July 2025</span>
           <span className="flex items-center"><FaUserCircle className="mr-1 text-[#FC55E5]" />EBCCN Team</span>
         </div>
-        <Image src="/ewsc-partner.jpg" alt="EWSC Partner Spotlight" width={900} height={256} className="w-full h-64 object-cover rounded-lg mb-6" />
+        <Image src="/fight2.jpg" alt="EWSC Partner Spotlight" width={900} height={256} className="w-full h-96 object-cover rounded-lg mb-6" />
         <section className="prose space-y-4 max-w-none text-[#75245F]">
           <p>
             Partnerships fuel progress. In this edition, we spotlight the Eswatini Water Services Company (EWSC), whose support made history by enabling the construction of the first chemotherapy treatment unit in the country. Discover how this contribution has saved lives and paved the way for expanded cancer services in Eswatini.

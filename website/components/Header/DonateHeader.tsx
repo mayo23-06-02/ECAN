@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import React from "react";
-import { BsFacebook, BsPhone, BsWhatsapp, BsInstagram } from "react-icons/bs";
+import { BsFacebook, BsWhatsapp, BsInstagram } from "react-icons/bs";
 
 function DonateHeader() {
   return (

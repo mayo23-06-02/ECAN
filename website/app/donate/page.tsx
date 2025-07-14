@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaHandHoldingHeart, FaMobileAlt, FaUniversity, FaInfoCircle, FaRegEnvelope } from 'react-icons/fa';
+import { FaHandHoldingHeart,  FaUniversity, FaInfoCircle, FaRegEnvelope } from 'react-icons/fa';
 
 const bankDetails = [
   { label: 'Account Name', value: 'SWD Breast & Cervical Network' },

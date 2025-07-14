@@ -13,16 +13,7 @@ const blogPosts = [
 	   image: '/truck.jpg',
 	   tags: ['Screening', 'Outreach', 'Impact'],
    },
-   {
-	   title: 'Cancer Awareness Month: Key Takeaways',
-	   date: '2025-05-01',
-	   excerpt:
-		   'Highlights from our national campaign, including outreach events, survivor stories, and prevention tips. Discover the most impactful moments and resources shared.',
-	   href: '/blog/cancer-awareness-month',
-	   author: 'S. Mthethwa',
-	   image: '/truck.jpg',
-	   tags: ['Awareness', 'Events', 'Stories'],
-   },
+   
    {
 	   title: "25 Years of Impact: EBCCN’s Journey in the Fight Against Cancer",
 	   date: "2025-07-14",
@@ -30,7 +21,7 @@ const blogPosts = [
 		   "This year, EBCCN proudly celebrates 25 years of unwavering commitment to reducing the cancer burden in Eswatini. From community outreach to launching the country’s first chemotherapy treatment unit, we’ve grown into a trusted partner in public health. This post reflects on our journey, major milestones, and the lives we’ve touched along the way.",
 	   href: "/blog/25-years-of-impact",
 	   author: "EBCCN Team",
-	   image: "/impact-25.jpg",
+	   image: "/fight2.jpg",
 	   tags: ["Milestones", "History", "Impact"],
    },
    {
@@ -40,7 +31,7 @@ const blogPosts = [
 		   "Early detection is key to surviving breast and cervical cancer. In this blog post, we explain the importance of regular screenings, how to access our mobile clinics, and what to expect during a screening. Real stories from women who caught cancer early thanks to EBCCN’s programs are also featured.",
 	   href: "/blog/why-routine-screening-saves-lives",
 	   author: "EBCCN Team",
-	   image: "/screening-women.jpg",
+	   image: "/fight.jpg",
 	   tags: ["Screening", "Women", "Survivors"],
    },
    {
@@ -50,21 +41,12 @@ const blogPosts = [
 		   "Partnerships fuel progress. In this edition, we spotlight the Eswatini Water Services Company (EWSC), whose support made history by enabling the construction of the first chemotherapy treatment unit in the country. Discover how this contribution has saved lives and paved the way for expanded cancer services in Eswatini.",
 	   href: "/blog/partner-spotlight-ewsc",
 	   author: "EBCCN Team",
-	   image: "/ewsc-partner.jpg",
+	   image: "/fight2.jpg",
 	   tags: ["Partners", "Chemotherapy", "Progress"],
    },
 ];
 
-const reports = [
-	{
-		title: '2024 Annual Impact Report',
-		href: '/reports/ecan-impact-report-2024.pdf',
-	},
-	{
-		title: 'Screening Program Outcomes 2023',
-		href: '/reports/screening-outcomes-2023.pdf',
-	},
-];
+;
 
 export default function BlogPage() {
 	return (
@@ -131,21 +113,7 @@ export default function BlogPage() {
 						</a>
 					))}
 				</div>
-				<div>
-					<h2 className="text-2xl font-bold text-primary mb-4">Reports & Publications</h2>
-					<div className="flex flex-wrap gap-4">
-						{reports.map((r) => (
-							<a
-								key={r.title}
-								href={r.href}
-								className="inline-flex items-center px-4 py-2 rounded bg-white border border-[#FC55E5] text-[#FC55E5] font-bold font-outfit shadow hover:bg-[#FC55E5] hover:text-white transition-colors"
-								download
-							>
-								<FaFilePdf className="mr-2" /> {r.title}
-							</a>
-						))}
-					</div>
-				</div>
+			
 			</section>
 		</main>
 	);

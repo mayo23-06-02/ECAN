@@ -12,16 +12,16 @@ export default function WhyScreeningSavesLivesStory() {
         </Link>
         <div className="mb-4 flex items-center gap-3">
           <FaRegNewspaper className="text-[#FC55E5] text-2xl" />
-          <h1 className="font-verveine text-3xl lg:text-5xl text-[#B33791]">Why Routine Screening Saves Lives: A Message to Eswatini’s Women</h1>
+          <h1 className="font-verveine text-3xl lg:text-5xl text-[#B33791]">Why Routine Screening Saves Lives: A Message to Eswatini&quot;s Women</h1>
         </div>
         <div className="flex items-center text-[#75245F] text-sm mb-6 gap-4">
           <span className="flex items-center"><FaCalendarAlt className="mr-1 text-[#FC55E5]" />14 July 2025</span>
           <span className="flex items-center"><FaUserCircle className="mr-1 text-[#FC55E5]" />EBCCN Team</span>
         </div>
-        <Image src="/screening-women.jpg" alt="Routine Screening" width={900} height={256} className="w-full h-64 object-cover rounded-lg mb-6" />
+        <Image src="/fight.jpg" alt="Routine Screening" width={900} height={256} className="w-full h-92 object-cover rounded-lg mb-6" />
         <section className="prose space-y-4 max-w-none text-[#75245F]">
           <p>
-            Early detection is key to surviving breast and cervical cancer. In this blog post, we explain the importance of regular screenings, how to access our mobile clinics, and what to expect during a screening. Real stories from women who caught cancer early thanks to EBCCN’s programs are also featured.
+            Early detection is key to surviving breast and cervical cancer. In this blog post, we explain the importance of regular screenings, how to access our mobile clinics, and what to expect during a screening. Real stories from women who caught cancer early thanks to EBCCN&quot;s programs are also featured.
           </p>
           <h2>Why Screening Matters</h2>
           <p>
@@ -35,7 +35,7 @@ export default function WhyScreeningSavesLivesStory() {
           </ul>
           <h2>Real Stories</h2>
           <p>
-            "I was nervous at first, but the nurses made me feel comfortable. They found something early, and now I’m healthy and grateful." — <span className="font-bold">Thandi, Manzini</span>
+            &quot;I was nervous at first, but the nurses made me feel comfortable. They found something early, and now I’m healthy and grateful.&quot; — <span className="font-bold">Thandi, Manzini</span>
           </p>
           <p>
             Don’t wait. Early detection saves lives. Visit our mobile clinics or contact us to learn more about screening opportunities.

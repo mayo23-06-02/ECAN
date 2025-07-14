@@ -18,7 +18,7 @@ export default function MobileClinicsStory() {
           <span className="flex items-center"><FaCalendarAlt className="mr-1 text-[#FC55E5]" />15 Jun 2025</span>
           <span className="flex items-center"><FaUserCircle className="mr-1 text-[#FC55E5]" />N. Dlamini</span>
         </div>
-        <Image src="/truck.jpg" alt="Mobile Clinic" width={900} height={256} className="w-full h-64 object-cover rounded-lg mb-6" />
+        <Image src="/truck.jpg" alt="Mobile Clinic" width={900} height={256} className="w-full h-96 object-cover rounded-lg mb-6" />
         <section className="prose space-y-4 max-w-none text-[#75245F]">
           <p>
             The Eswatini Cancer Network (ECAN) is proud to announce the launch of our new mobile screening clinics, a major step forward in making cancer detection and care accessible to all communities across Eswatini.
