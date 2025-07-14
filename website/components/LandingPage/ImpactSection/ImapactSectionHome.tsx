@@ -7,21 +7,21 @@ import { BiScan } from 'react-icons/bi'
 function ImpactCardCarousel() {
     const cards = [
         {
-            title: "+10K",
-            subtitle: "Screened Over 10,000 Individuals",
-            description: "Since 2001, ECAN has provided free or low-cost screenings for breast, cervical, and prostate cancers, enabling early detection and treatment for thousands. In 2024 alone, we screened 1,500 women for cervical cancer, identifying 120 cases for early intervention.",
+            title: "+50K",
+            subtitle: "Lives Reached Through Awareness",
+            description: "Through nationwide campaigns, school visits, and community events, ECAN has educated over 50,000 people about cancer prevention, early signs, and the importance of screening.",
             icon: <BiScan className="text-[#B33791] text-5xl" />
         },
         {
-            title: "+10K",
-            subtitle: "Screened Over 10,000 Individuals",
-            description: "Since 2001, ECAN has provided free or low-cost screenings for breast, cervical, and prostate cancers, enabling early detection and treatment for thousands. In 2024 alone, we screened 1,500 women for cervical cancer, identifying 120 cases for early intervention.",
+            title: "+15K",
+            subtitle: "Screenings & Early Detections",
+            description: "Over 15,000 free or low-cost breast, cervical, and prostate cancer screenings provided since 2001. Hundreds of early-stage cancers detected, giving patients a better chance at survival.",
             icon: <BiScan className="text-[#B33791] text-5xl" />
         },
         {
-            title: "+10K",
-            subtitle: "Screened Over 10,000 Individuals",
-            description: "Since 2001, ECAN has provided free or low-cost screenings for breast, cervical, and prostate cancers, enabling early detection and treatment for thousands. In 2024 alone, we screened 1,500 women for cervical cancer, identifying 120 cases for early intervention.",
+            title: "+1,200",
+            subtitle: "Patients Supported Annually",
+            description: "Each year, ECAN offers psychosocial support, patient navigation, and financial assistance to more than 1,200 individuals and families affected by cancer across Eswatini.",
             icon: <BiScan className="text-[#B33791] text-5xl" />
         }
     ];
