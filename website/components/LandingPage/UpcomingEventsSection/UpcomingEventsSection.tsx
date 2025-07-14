@@ -14,7 +14,7 @@ const events = [
     },
     {
         title: 'Brave the Breast Walk',
-        date: 'October 12, 2025',
+        date: 'November 01, 2025',
         description:
             'Walk with survivors, families, and supporters in Mbabane to promote early detection and honor those affected by breast cancer.',
         location: 'Coronation Park, Mbabane',
