@@ -15,6 +15,7 @@ interface Slide {
   highlight: string
   description: string
   button: string
+  slug?: string // Optional for slides that don't link anywhere
 }
 
 const slides: Slide[] = [
@@ -25,14 +26,16 @@ const slides: Slide[] = [
     description:
       'When you prioritize early detection, you take control of your future. Your vigilance empowers you with the knowledge to confront potential challenges head-on. By turning early signals into actionable insights, we can transform subtle warnings into powerful recoveries. Every proactive step you take is a promise for a healthier, brighter tomorrow.',
     button: 'Get Started',
+    slug: '/screening',
   },
   {
-    image: '/truck.jpg',
-    title: 'Early Detection is Key—Because Every ',
-    highlight: 'Moment Matters',
+    image: '/btb.jpg',
+    title: 'Brave the Breast Walk Challenge ',
+    highlight: '& fight cancer',
     description:
-      'When you prioritize early detection, you take control of your future. Your vigilance empowers you with the knowledge to confront potential challenges head-on. By turning early signals into actionable insights, we can transform subtle warnings into powerful recoveries. Every proactive step you take is a promise for a healthier, brighter tomorrow.',
-    button: 'Get Started',
+      'Walk with us to raise awareness and funds for breast cancer prevention and support. Join the movement to make a difference in the fight against cancer. Every step you take is a step towards a brighter future. Join us in this journey to make a difference.',
+    button: 'Learn More',
+    slug: '/brave-the-breast-walk',
   },
 ]
 

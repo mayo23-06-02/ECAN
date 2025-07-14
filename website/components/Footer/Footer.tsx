@@ -13,16 +13,16 @@ function Footer() {
     ];
     const helpLinks = [
         { title: 'Contact Us', path: '/contact' },
-        { title: 'Consult', path: '/consult' },
+        { title: 'Consult', path: '/psychosocial' },
         { title: 'Book a Screening', path: '/screening' },
         { title: 'FAQ’s', path: '/faq' },
         { title: 'Advocacy', path: '/programs/advocacy' },
         { title: 'Volunteer', path: '/volunteer' },
     ];
     const socialLinks = [
-        { name: 'Instagram', url: 'https://www.instagram.com/magicsealsa/', icon: <FaInstagram className="inline-block mr-2 text-xl align-middle" aria-label="Instagram" /> },
-        { name: 'Facebook', url: 'https://www.facebook.com/profile.php?id=61575021916917', icon: <FaFacebookF className="inline-block mr-2 text-xl align-middle" aria-label="Facebook" /> },
-        { name: 'WhatsApp', url: 'https://wa.me/0639313869', icon: <FaWhatsapp className="inline-block mr-2 text-xl align-middle" aria-label="WhatsApp" /> },
+        { name: 'Instagram', url: 'https://www.instagram.com/breastandcervicalcancernetwork/', icon: <FaInstagram className="inline-block mr-2 text-xl align-middle" aria-label="Instagram" /> },
+        { name: 'Facebook', url: 'https://www.facebook.com/swazilandbreastandcervicalcancernetwork/', icon: <FaFacebookF className="inline-block mr-2 text-xl align-middle" aria-label="Facebook" /> },
+        { name: 'WhatsApp', url: 'https://wa.me/26879021071', icon: <FaWhatsapp className="inline-block mr-2 text-xl align-middle" aria-label="WhatsApp" /> },
     ];
     return (
         <footer className="bg-tertiary">

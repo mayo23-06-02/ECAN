@@ -6,8 +6,8 @@ function OurTeamHome() {
     return (
         <div className='bg-[#F9ECF7] flex flex-col lg:flex-row lg:space-x-8 lg:max-h-[600px]'>
             <div className='min-w-[300px]'>
-                <Image src="/support.jpg" alt="Support" width={1000} height={400} className='hidden lg:inline h-[600px] object-cover' />
-                <Image src="/support.jpg" alt="Support" width={800} height={100} className='lg:hidden' />
+                <Image src="/support2.jpg" alt="Support" width={1000} height={400} className='hidden lg:inline h-[600px] object-cover' />
+                <Image src="/support2.jpg" alt="Support" width={800} height={100} className='lg:hidden' />
             </div>
             <div className='lg:pr-32 px-6 lg:py-16 py-8'>
                 <div>

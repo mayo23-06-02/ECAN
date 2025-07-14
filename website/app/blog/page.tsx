@@ -3,26 +3,56 @@ import Image from 'next/image';
 import { FaRegNewspaper, FaFilePdf, FaCalendarAlt, FaUserCircle, FaArrowRight } from 'react-icons/fa';
 
 const blogPosts = [
-	{
-		title: 'ECAN Launches New Mobile Screening Clinics',
-		date: '2025-06-15',
-		excerpt:
-			'Our new mobile clinics are bringing life-saving cancer screening services to rural communities across Eswatini. Learn how these clinics are making a difference and what communities can expect.',
-		href: '/blog/ecan-mobile-clinics',
-		author: 'N. Dlamini',
-		image: '/truck.jpg',
-		tags: ['Screening', 'Outreach', 'Impact'],
-	},
-	{
-		title: 'Cancer Awareness Month: Key Takeaways',
-		date: '2025-05-01',
-		excerpt:
-			'Highlights from our national campaign, including outreach events, survivor stories, and prevention tips. Discover the most impactful moments and resources shared.',
-		href: '/blog/cancer-awareness-month',
-		author: 'S. Mthethwa',
-		image: '/truck.jpg',
-		tags: ['Awareness', 'Events', 'Stories'],
-	},
+   {
+	   title: 'ECAN Launches New Mobile Screening Clinics',
+	   date: '2025-06-15',
+	   excerpt:
+		   'Our new mobile clinics are bringing life-saving cancer screening services to rural communities across Eswatini. Learn how these clinics are making a difference and what communities can expect.',
+	   href: '/blog/ecan-mobile-clinics',
+	   author: 'N. Dlamini',
+	   image: '/truck.jpg',
+	   tags: ['Screening', 'Outreach', 'Impact'],
+   },
+   {
+	   title: 'Cancer Awareness Month: Key Takeaways',
+	   date: '2025-05-01',
+	   excerpt:
+		   'Highlights from our national campaign, including outreach events, survivor stories, and prevention tips. Discover the most impactful moments and resources shared.',
+	   href: '/blog/cancer-awareness-month',
+	   author: 'S. Mthethwa',
+	   image: '/truck.jpg',
+	   tags: ['Awareness', 'Events', 'Stories'],
+   },
+   {
+	   title: "25 Years of Impact: EBCCN’s Journey in the Fight Against Cancer",
+	   date: "2025-07-14",
+	   excerpt:
+		   "This year, EBCCN proudly celebrates 25 years of unwavering commitment to reducing the cancer burden in Eswatini. From community outreach to launching the country’s first chemotherapy treatment unit, we’ve grown into a trusted partner in public health. This post reflects on our journey, major milestones, and the lives we’ve touched along the way.",
+	   href: "/blog/25-years-of-impact",
+	   author: "EBCCN Team",
+	   image: "/impact-25.jpg",
+	   tags: ["Milestones", "History", "Impact"],
+   },
+   {
+	   title: "Why Routine Screening Saves Lives: A Message to Eswatini’s Women",
+	   date: "2025-07-14",
+	   excerpt:
+		   "Early detection is key to surviving breast and cervical cancer. In this blog post, we explain the importance of regular screenings, how to access our mobile clinics, and what to expect during a screening. Real stories from women who caught cancer early thanks to EBCCN’s programs are also featured.",
+	   href: "/blog/why-routine-screening-saves-lives",
+	   author: "EBCCN Team",
+	   image: "/screening-women.jpg",
+	   tags: ["Screening", "Women", "Survivors"],
+   },
+   {
+	   title: "Partner Spotlight: How EWSC Helped Build Eswatini’s First Chemotherapy Unit",
+	   date: "2025-07-14",
+	   excerpt:
+		   "Partnerships fuel progress. In this edition, we spotlight the Eswatini Water Services Company (EWSC), whose support made history by enabling the construction of the first chemotherapy treatment unit in the country. Discover how this contribution has saved lives and paved the way for expanded cancer services in Eswatini.",
+	   href: "/blog/partner-spotlight-ewsc",
+	   author: "EBCCN Team",
+	   image: "/ewsc-partner.jpg",
+	   tags: ["Partners", "Chemotherapy", "Progress"],
+   },
 ];
 
 const reports = [

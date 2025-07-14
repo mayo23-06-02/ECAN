@@ -1,6 +1,7 @@
 "use client";
+import Link from "next/link";
 import React from "react";
-import { BsFacebook, BsPhone, BsWhatsapp } from "react-icons/bs";
+import { BsFacebook, BsPhone, BsWhatsapp, BsInstagram } from "react-icons/bs";
 
 function DonateHeader() {
   return (
@@ -9,7 +10,6 @@ function DonateHeader() {
         <div className="block md:hidden w-full overflow-x-hidden">
           <div className="whitespace-nowrap animate-marquee text-center w-max">
             Stand Up. Give Back. Beat Cancer.{" "}
-            <span className="underline">www.ecan.org.sz/donate</span>
           </div>
         </div>
         <>
@@ -24,15 +24,23 @@ function DonateHeader() {
       <div className="flex flex-col sm:flex-row items-center gap-4 md:gap-16 animate-fade-in-right">
         <div className="hidden lg:inline">
           <div className="flex items-center gap-4">
-            <BsWhatsapp className="text-lg hover:text-tertiary transition-colors cursor-pointer" />
-            <BsFacebook className="text-lg hover:text-tertiary transition-colors cursor-pointer" />
-            <BsPhone className="text-lg hover:text-tertiary transition-colors cursor-pointer" />
+            <a href="https://wa.me/26879021071" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+              <BsWhatsapp className="text-lg hover:text-tertiary transition-colors cursor-pointer" />
+            </a>
+            <a href="https://www.facebook.com/swazilandbreastandcervicalcancernetwork/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <BsFacebook className="text-lg hover:text-tertiary transition-colors cursor-pointer" />
+            </a>
+            <a href="https://www.instagram.com/breastandcervicalcancernetwork/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <BsInstagram className="text-lg hover:text-tertiary transition-colors cursor-pointer" />
+            </a>
           </div>
         </div>
         <div className="hidden lg:inline">
+          <Link href="/donate">
           <div>
             <p className="underline font-bold animate-reveal">DONATE NOW!</p>
           </div>
+          </Link>
         </div>
       </div>
       <style jsx>{`

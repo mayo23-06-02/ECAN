@@ -41,8 +41,8 @@ function AdvocacySectionHome() {
                     </p>
                 </div>
                 <div className='pt-8'> 
-                    <Link href="/about" passHref legacyBehavior>
-                        <Button variant="primary" className="flex items-center group">
+                    <Link href="/about" className="group">
+                        <Button variant="primary" className="flex items-center">
                             <span className="transition-transform duration-300 group-hover:translate-x-1 motion-reduce:transform-none space-x-2 flex">
                                 <span>Learn More</span>
                                 <BsArrowRight className="bg-white text-[#FC55E5] rounded-full h-5 w-5 p-1" />

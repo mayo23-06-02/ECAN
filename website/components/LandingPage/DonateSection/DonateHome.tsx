@@ -1,6 +1,7 @@
 "use client"
 import Button from '@/components/Re-usable UI/Button'
 import React from 'react'
+import { useRouter } from 'next/navigation'
 import { BsArrowRight } from 'react-icons/bs'
 import Image from 'next/image'
 
@@ -9,6 +10,7 @@ interface DonateHomeProps {
 }
 
 function DonateHome({ showImage = true }: DonateHomeProps) {
+    const router = useRouter();
     return (
         <div className='max-w-[1400px] mx-auto flex flex-col items-center justify-center space-y-4 font-outfit'>
             <div className='text-[#fc55e6de] text-3xl lg:text-6xl font-bold text-center'>
@@ -16,7 +18,7 @@ function DonateHome({ showImage = true }: DonateHomeProps) {
                     Support ECAN’s Mission!</p>
             </div>
             <div className='flex flex-col items-center justify-center space-y-4 text-center'>
-                <Button variant="primary" onClick={() => alert("Clicked!")}>
+                <Button variant="primary" onClick={() => router.push('/donate')}>
                     <p className="whitespace-nowrap flex w-full justify-center items-center gap-4 font-outfit font-bold">
                         DONATE
                         <span className="inline-block transition-transform duration-300 group-hover:translate-x-1 motion-reduce:transform-none animate-arrow-bounce">

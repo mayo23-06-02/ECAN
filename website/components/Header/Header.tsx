@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { BsArrowRight } from "react-icons/bs";
-import Button from "../Re-usable UI/Button";
+import Button from "@/components/Re-usable UI/Button";
 
 const navLinks = [
     { name: "Home", href: "/" },
@@ -16,8 +16,7 @@ const navLinks = [
             { name: "Advocacy", href: "/programs/advocacy" },
             { name: "Psychosocial", href: "/programs/psychosocial" },
             { name: "Screening", href: "/programs/screening" },
-            { name: "Resource Mobilization", href: "/programs/resource-mobilization" },
-            { name: "BTB", href: "/programs/btb" },
+            { name: "BTB", href: "/events/brave-the-breast-walk" },
         ],
     },
     {
@@ -28,7 +27,6 @@ const navLinks = [
             { name: "Become a Volunteer", href: "/volunteer" },
         ],
     },
-    { name: "Gallery", href: "/gallery" },
     { name: "Blog & Reports", href: "/blog" },
     { name: "FAQs & Contact Us", href: "/contact" },
 ];
@@ -125,17 +123,15 @@ export default function Header() {
                     </ul>
                 </div>
                 <div className="hidden md:flex">
-                    <Link href="/donate" passHref legacyBehavior>
-                        <a>
-                            <Button variant="primary" >
-                                <p className="whitespace-nowrap flex w-full justify-center items-center gap-4 font-outfit font-bold">
-                                    DONATE
-                                    <span className="inline-block transition-transform duration-300 group-hover:translate-x-1 motion-reduce:transform-none animate-arrow-bounce">
-                                        <BsArrowRight className="bg-white text-[#FC55E5] rounded-full h-5 w-5 p-1" />
-                                    </span>
-                                </p>
-                            </Button>
-                        </a>
+                    <Link href="/donate" className="group">
+                        <Button variant="primary" >
+                            <p className="whitespace-nowrap flex w-full justify-center items-center gap-4 font-outfit font-bold">
+                                DONATE
+                                <span className="inline-block transition-transform duration-300 group-hover:translate-x-1 motion-reduce:transform-none animate-arrow-bounce">
+                                    <BsArrowRight className="bg-white text-[#FC55E5] rounded-full h-5 w-5 p-1" />
+                                </span>
+                            </p>
+                        </Button>
                     </Link>
                 </div>
                 <div className="md:hidden">

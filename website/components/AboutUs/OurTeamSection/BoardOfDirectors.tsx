@@ -3,26 +3,31 @@ import Image from 'next/image';
 
 const directors = [
   {
-    name: 'Dr. Nomsa Dlamini',
+    name: 'Thobile Dlamini',
     title: 'Chairperson',
     img: '/board/1.png',
   },
   {
-    name: 'Mrs. Zipho Mthethwa',
-    title: 'Vice Chair',
+    name: 'Tengetile Khubeka',
+    title: 'Executive Director',
     img: '/board/2.png',
   },
   {
-    name: 'Ms. Zanele Simelane',
+    name: 'Caroline Sullivian',
     title: 'Treasurer',
+    img: '/board/5.png',
+  },
+  {
+    name: 'Siphiwe Dlamini',
+    title: 'Board Member',
     img: '/board/3.png',
   },
   {
-    name: 'Mrs. Linda Dube',
-    title: 'Secretary',
+    name: 'Vuyisile Mondlane',
+    title: 'Board Member',
     img: '/board/4.png',
   },
- 
+
 ];
 
 export default function BoardOfDirectors() {
