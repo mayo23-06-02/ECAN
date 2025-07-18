@@ -5,7 +5,7 @@ function HeroSectionHome() {
   return (
     <div className="w-full h-[40vw] min-h-[300px] max-h-[600px] relative">
       <Image 
-        src="/about-cover.png" 
+        src="/about.jpg" 
         alt="About Cover" 
         fill 
         style={{ objectFit: 'cover' }} 

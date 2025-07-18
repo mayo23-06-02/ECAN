@@ -1,39 +1,47 @@
 'use client'
 import React from 'react'
+import { useRouter } from 'next/navigation'
 import Image from 'next/image'
 import Button from '@/components/Re-usable UI/Button'
 
 function QuickMenuHome() {
+    const router = useRouter();
     const cards = [
         {
             title: 'Donate to Save Lives!',
             description: 'Your donation helps us provide screenings, support, and hope to those affected by cancer.',
             image: '/donate.png',
+            onClick: () => router.push('/donate'),
         },
         {
             title: 'Join Brave the Breast Walk!',
             description: 'Walk with us to raise awareness and funds for breast cancer prevention and support.',
             image: '/breast-walk.png',
+            onClick: () => router.push('/events/brave-the-breast-walk'),
         },
         {
             title: 'Learn About Cancer Prevention',
             description: 'Discover tips and resources to reduce your cancer risk and stay healthy.',
             image: '/learn.png',
+            onClick: () => router.push('/programs/advocacy'),
         },
         {
             title: 'Support Our Survivors',
             description: 'Stand with survivors and help us build a community of strength and resilience.',
             image: '/support.png',
+            onClick: () => router.push('/blog'),
         },
         {
             title: 'Volunteer With ECAN!',
             description: 'Join our team and make a difference in the fight against cancer.',
             image: '/volunteer.png',
+            onClick: () => router.push('/volunteer'),
         },
         {
             title: 'Get Screened Today',
             description: 'Early detection is key to improving cancer survival rates. Regular screenings can help identify precancerous conditions and cancers at an early stage.',
             image: '/screening.png',
+            onClick: () => router.push('/screening'),
         },
     ];
     return (
@@ -76,7 +84,7 @@ function QuickMenuHome() {
                             <p className='text-xl lg:text-2xl text-left mt-4 font-bold text-[#B33791]'>{card.title}</p>
                             <p className='text-lg lg:text-xl text-left line-clamp-2 text-[#75245F]'>{card.description}</p>
                         </div>
-                        <Button variant="secondary" className="mt-4">
+                        <Button variant="secondary" className="mt-4" onClick={card.onClick}>
                             Read More
                         </Button>
                     </div>
